@@ -5,7 +5,7 @@ import { OpcodeTable } from "@/components/opcode-table";
 
 export const metadata: Metadata = {
   title: "Specification | CISA",
-  description: "The CISA v0.1 instruction set: 18 opcodes, 32-bit encoding, continuous vector registers, and the design decisions the experiments forced.",
+  description: "The CISA instruction set architecture: 18 opcodes, 32-bit encoding, continuous vector registers, and the design decisions the experiments forced.",
 };
 
 const DECISIONS = [
@@ -31,7 +31,7 @@ export default function SpecPage() {
   return (
     <div className="mx-auto flex max-w-7xl flex-col gap-12 px-4 py-8 md:px-6 md:py-12">
       <PageIntro
-        kicker="CISA v0.1"
+        kicker="CISA Spec"
         title="Specification"
         lead="A register machine with 16 vector registers, a confidence register C, a lexicon of concept vectors and any number of memory banks. Instructions are 32 bits. Opcodes are discrete; register contents are real vectors (d = 256 to 2048 in our experiments)."
       />

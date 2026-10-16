@@ -12,6 +12,12 @@ export const metadata: Metadata = {
   title: "CISA: Continuous Instruction Set Architecture",
   description:
     "Symbolic neuralese with opcodes. An instruction set where every opcode is a readable cognitive operation and every operand is a continuous vector. WAICY 2026 project with measured results.",
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico" },
+    ],
+  },
 };
 
 export const viewport: Viewport = {
