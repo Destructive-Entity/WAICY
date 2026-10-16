@@ -3,7 +3,7 @@
 > **Project Name:** CISA: Continuous Instruction Set Architecture  
 > **Sub-title:** Symbolic Neuralese with Opcodes  
 > **Created by:** [Kreflux](https://kreflux.com)  
-> **Live Interactive Demo:** [https://waicy.netlify.app](https://waicy.netlify.app)  
+> **Live Interactive Demo:** [https://kreflux.com/waicy](https://kreflux.com/waicy) (also at [https://waicy.netlify.app](https://waicy.netlify.app))  
 > **Open Source Codebase:** [https://github.com/Destructive-Entity/WAICY](https://github.com/Destructive-Entity/WAICY)  
 > **Full Research Paper:** [`docs/RESEARCH.md`](docs/RESEARCH.md)  
 
@@ -16,12 +16,12 @@ Welcome, WAICY judges! This guide outlines everything you need to assess the pro
 ### 1. Instant Online Review (Zero Setup Required)
 You can test the complete system in your browser without installing anything:
 
-* **Live Demo & Benchmark Portal:** [https://waicy.netlify.app](https://waicy.netlify.app)
-* **Step-Through Visual Debugger:** [https://waicy.netlify.app/playground](https://waicy.netlify.app/playground)  
+* **Live Demo & Benchmark Portal:** [https://kreflux.com/waicy](https://kreflux.com/waicy)
+* **Step-Through Visual Debugger:** [https://kreflux.com/waicy/playground](https://kreflux.com/waicy/playground)  
   *Step instruction-by-instruction through reasoning programs and watch continuous vector superposition unfold.*
-* **Empirical Evidence & Benchmark Dashboard:** [https://waicy.netlify.app/results](https://waicy.netlify.app/results)  
+* **Empirical Evidence & Benchmark Dashboard:** [https://kreflux.com/waicy/results](https://kreflux.com/waicy/results)  
   *All 9 scientific experiments with interactive charts.*
-* **Architecture & Opcode Specification:** [https://waicy.netlify.app/spec](https://waicy.netlify.app/spec)  
+* **Architecture & Opcode Specification:** [https://kreflux.com/waicy/spec](https://kreflux.com/waicy/spec)  
   *Full 32-bit binary instruction encoding and 18-opcode definitions.*
 
 ---

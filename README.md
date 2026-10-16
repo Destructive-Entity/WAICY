@@ -2,6 +2,11 @@
 
 **Symbolic neuralese with opcodes.** A WAICY 2026 project.
 
+> **Live Interactive Demo:** [https://kreflux.com/waicy](https://kreflux.com/waicy) (also at [https://waicy.netlify.app](https://waicy.netlify.app))  
+> **Created by:** [Kreflux](https://kreflux.com)  
+> **Judge Quick-Start Guide:** [`JUDGES_START_HERE.md`](JUDGES_START_HERE.md)  
+> **Full Research Paper:** [`docs/RESEARCH.md`](docs/RESEARCH.md)  
+
 AI systems today reason in one of two languages. They write English chains of thought, which humans can read but which are long, slow and lossy. Or they pass vectors between layers ("neuralese"), which are fast and rich but unreadable. CISA is a third option: a machine language for reasoning where
 
 - every **opcode** is a discrete, readable cognitive step (`BIND`, `RECALL`, `CLEAN`, `BRC`, ...), packed into a 32-bit word, and
