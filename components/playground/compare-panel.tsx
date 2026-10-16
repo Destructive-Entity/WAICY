@@ -12,7 +12,7 @@ export function ComparePanel({ english, cisaBytes, bytecode }: { english: string
         <div className="flex items-baseline justify-between text-xs">
           <span className="font-medium uppercase tracking-wider text-muted-foreground">English chain of thought</span>
           <span className="font-mono">
-            {englishBytes} B &middot; ~{tokens} tokens
+            {englishBytes} B - ~{tokens} tokens
           </span>
         </div>
         <p className="whitespace-pre-line rounded-md bg-muted p-3 text-sm leading-relaxed">{english}</p>

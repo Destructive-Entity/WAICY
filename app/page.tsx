@@ -30,7 +30,7 @@ export default function HomePage() {
     <div className="mx-auto flex max-w-7xl flex-col gap-16 px-4 py-10 md:gap-24 md:px-6 md:py-16">
       <section className="grid items-start gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)] lg:gap-12">
         <div className="flex flex-col gap-6 animate-tape-in">
-          <p className="font-mono text-xs uppercase tracking-widest text-primary">WAICY 2026 &middot; Continuous Instruction Set Architecture</p>
+          <p className="font-mono text-xs uppercase tracking-widest text-primary">WAICY 2026 - Continuous Instruction Set Architecture</p>
           <h1 className="text-balance text-4xl font-semibold leading-tight tracking-tight md:text-5xl xl:text-6xl">
             A machine language for thinking.
           </h1>

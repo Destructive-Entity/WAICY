@@ -56,7 +56,7 @@ export default function ResultsPage() {
       <div className="grid gap-6 lg:grid-cols-2">
         <ChartCard
           id="operands"
-          label="E8 · continuous operands"
+          label="E8 - continuous operands"
           title="It learns a hidden concept from a single example"
           finding={
             <>
@@ -72,7 +72,7 @@ export default function ResultsPage() {
 
         <ChartCard
           id="composite"
-          label="E8b · composition"
+          label="E8b - composition"
           title="It discovers multi-step concepts and explains them"
           finding={
             <>
@@ -88,7 +88,7 @@ export default function ResultsPage() {
 
         <ChartCard
           id="noise"
-          label="E2 · error correction"
+          label="E2 - error correction"
           title="CLEAN works like error-correcting memory for thoughts"
           finding={
             <>
@@ -104,7 +104,7 @@ export default function ResultsPage() {
 
         <ChartCard
           id="capacity"
-          label="E1 · capacity"
+          label="E1 - capacity"
           title="Capacity grows linearly with dimension"
           finding={
             <>
@@ -120,7 +120,7 @@ export default function ResultsPage() {
 
       <ChartCard
         id="metacognition"
-        label="E3 · metacognition"
+        label="E3 - metacognition"
         title="It knows when it doesn't know, and spends effort only then"
         finding={
           <>
@@ -138,7 +138,7 @@ export default function ResultsPage() {
       <div className="grid gap-6 lg:grid-cols-2">
         <ChartCard
           id="aliasing"
-          label="E1b · ablation"
+          label="E1b - ablation"
           title="Why PERM is a random permutation"
           finding="Rotation scores exactly the same as no fix at every size, because rotation commutes with convolution. A fixed random permutation breaks the symmetry."
           method="Same world and queries for all three encodings; d = 1024."
@@ -148,7 +148,7 @@ export default function ResultsPage() {
 
         <ChartCard
           id="precision"
-          label="E5 · precision"
+          label="E5 - precision"
           title={`${h.precision.bits} bits per number is enough`}
           finding={`Quantising every concept and the memory to ${h.precision.bits} bits keeps accuracy at ${pct(h.precision.accuracy)}, ${h.precision.bytesPerVector} bytes per concept instead of 4096. Even 1 bit (sign only) keeps ${pct(r.precision[r.precision.length - 1].accuracy)}.`}
           method="Midrise uniform quantiser with Gaussian-optimal clipping. 32 facts, d = 1024, every query once."
@@ -158,7 +158,7 @@ export default function ResultsPage() {
 
         <ChartCard
           id="analogy"
-          label="E6 · analogy"
+          label="E6 - analogy"
           title="Zero-shot analogies in five instructions"
           finding={`"What plays the role in record B that x plays in record A?" With CLEAN, accuracy stays at ${pct(h.analogy.withClean)} even with ${h.analogy.roles} roles packed into one d=${h.analogy.dim} record; without it, ${pct(h.analogy.withoutClean)}.`}
           method="20 records per setting, 60 random analogies, records built and queried entirely by CISA code. No training."
@@ -168,7 +168,7 @@ export default function ResultsPage() {
 
         <ChartCard
           id="compactness"
-          label="E4 · compactness"
+          label="E4 - compactness"
           title="Reasoning traces are smaller and far cheaper to run"
           finding={`CISA bytecode is ${h.compactness.minRatio.toFixed(1)} to ${h.compactness.maxRatio.toFixed(1)}x smaller than the equivalent English chain of thought. One reasoning hop costs about ${(h.compactness.cisaFlops / 1000).toFixed(0)}K floating-point operations, versus roughly ${(r.compactness.flops.llm1BPerHop / 1e9).toFixed(0)} billion for a 1B-parameter model to write the same step (~${h.compactness.flopsRatio.toLocaleString("en-US")}x, an estimate).`}
           method={`Token counts use a GPT-style pre-tokeniser approximation. LLM cost uses the standard 2 FLOPs per parameter per token. Measured VM speed: ${r.compactness.measured.hopsPerSecond.toLocaleString("en-US")} hops/s in ${r.compactness.measured.runtime}. The comparison covers the reasoning step only, not language understanding.`}
@@ -179,7 +179,7 @@ export default function ResultsPage() {
 
       <ChartCard
         id="synthesis"
-        label="E7 · negative result"
+        label="E7 - negative result"
         title="Learning the opcodes themselves mostly fails, and that is informative"
         finding="Relaxing opcode choice into probabilities lets gradient descent find the two-step analogy program, and every solution it found is an algebraically equivalent program we did not write (it exploits the involution identity of correlation). With three or four slots no method reaches the bar under equal time budgets: a single correct step scores nothing on its own, so there is no gradient to follow. That is why CISA keeps opcodes symbolic and learns the operands instead (E8)."
         method={`Soft programs: every slot is a softmax over 6 opcodes and over source registers. Success means the hardened program reaches 90% of the reference program's test accuracy. ${r.synthesis[0].budgetMs / 1000}s wall-clock per run and 4 seeds per cell, so exact counts can shift by one on a different machine.`}
