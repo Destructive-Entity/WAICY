@@ -3,7 +3,7 @@ export function SiteFooter() {
     <footer className="border-t border-border">
       <div className="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-6 text-sm text-muted-foreground md:flex-row md:items-center md:justify-between md:px-6">
         <p>
-          CISA, a WAICY 2026 project. Credit:{" "}
+          CISA, a WAICY 2026 project. Created by{" "}
           <a
             href="https://kreflux.com"
             target="_blank"
