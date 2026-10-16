@@ -1,0 +1,1423 @@
+{
+  "generatedAt": "2026-10-16T17:36:19.013Z",
+  "runtime": "Node v24.16.0 on linux/x64",
+  "capacity": [
+    {
+      "dim": 256,
+      "facts": 8,
+      "accuracy": 1
+    },
+    {
+      "dim": 256,
+      "facts": 16,
+      "accuracy": 1
+    },
+    {
+      "dim": 256,
+      "facts": 32,
+      "accuracy": 0.6875
+    },
+    {
+      "dim": 256,
+      "facts": 64,
+      "accuracy": 0.2813
+    },
+    {
+      "dim": 256,
+      "facts": 128,
+      "accuracy": 0.1458
+    },
+    {
+      "dim": 256,
+      "facts": 256,
+      "accuracy": 0.0729
+    },
+    {
+      "dim": 512,
+      "facts": 8,
+      "accuracy": 1
+    },
+    {
+      "dim": 512,
+      "facts": 16,
+      "accuracy": 0.9375
+    },
+    {
+      "dim": 512,
+      "facts": 32,
+      "accuracy": 0.875
+    },
+    {
+      "dim": 512,
+      "facts": 64,
+      "accuracy": 0.5469
+    },
+    {
+      "dim": 512,
+      "facts": 128,
+      "accuracy": 0.2396
+    },
+    {
+      "dim": 512,
+      "facts": 256,
+      "accuracy": 0.125
+    },
+    {
+      "dim": 1024,
+      "facts": 8,
+      "accuracy": 1
+    },
+    {
+      "dim": 1024,
+      "facts": 16,
+      "accuracy": 1
+    },
+    {
+      "dim": 1024,
+      "facts": 32,
+      "accuracy": 0.9688
+    },
+    {
+      "dim": 1024,
+      "facts": 64,
+      "accuracy": 0.8594
+    },
+    {
+      "dim": 1024,
+      "facts": 128,
+      "accuracy": 0.3646
+    },
+    {
+      "dim": 1024,
+      "facts": 256,
+      "accuracy": 0.2083
+    },
+    {
+      "dim": 2048,
+      "facts": 8,
+      "accuracy": 1
+    },
+    {
+      "dim": 2048,
+      "facts": 16,
+      "accuracy": 1
+    },
+    {
+      "dim": 2048,
+      "facts": 32,
+      "accuracy": 1
+    },
+    {
+      "dim": 2048,
+      "facts": 64,
+      "accuracy": 1
+    },
+    {
+      "dim": 2048,
+      "facts": 128,
+      "accuracy": 0.8021
+    },
+    {
+      "dim": 2048,
+      "facts": 256,
+      "accuracy": 0.3854
+    }
+  ],
+  "aliasing": [
+    {
+      "facts": 16,
+      "none": 0.625,
+      "rotation": 0.625,
+      "permutation": 1
+    },
+    {
+      "facts": 32,
+      "none": 0.5938,
+      "rotation": 0.5938,
+      "permutation": 1
+    },
+    {
+      "facts": 64,
+      "none": 0.5781,
+      "rotation": 0.5781,
+      "permutation": 0.75
+    },
+    {
+      "facts": 128,
+      "none": 0.3958,
+      "rotation": 0.3958,
+      "permutation": 0.5
+    }
+  ],
+  "noise": {
+    "facts": 32,
+    "dim": 1024,
+    "rows": [
+      {
+        "noise": 0,
+        "hops": 1,
+        "clean": 1,
+        "noClean": 1
+      },
+      {
+        "noise": 0,
+        "hops": 2,
+        "clean": 1,
+        "noClean": 0.08
+      },
+      {
+        "noise": 0,
+        "hops": 3,
+        "clean": 1,
+        "noClean": 0
+      },
+      {
+        "noise": 0,
+        "hops": 4,
+        "clean": 1,
+        "noClean": 0.08
+      },
+      {
+        "noise": 0,
+        "hops": 5,
+        "clean": 1,
+        "noClean": 0.08
+      },
+      {
+        "noise": 0,
+        "hops": 6,
+        "clean": 1,
+        "noClean": 0.08
+      },
+      {
+        "noise": 0.5,
+        "hops": 1,
+        "clean": 0.96,
+        "noClean": 0.96
+      },
+      {
+        "noise": 0.5,
+        "hops": 2,
+        "clean": 0.88,
+        "noClean": 0.16
+      },
+      {
+        "noise": 0.5,
+        "hops": 3,
+        "clean": 0.88,
+        "noClean": 0.02
+      },
+      {
+        "noise": 0.5,
+        "hops": 4,
+        "clean": 0.7,
+        "noClean": 0.08
+      },
+      {
+        "noise": 0.5,
+        "hops": 5,
+        "clean": 0.74,
+        "noClean": 0.04
+      },
+      {
+        "noise": 0.5,
+        "hops": 6,
+        "clean": 0.72,
+        "noClean": 0.04
+      },
+      {
+        "noise": 1,
+        "hops": 1,
+        "clean": 0.8,
+        "noClean": 0.8
+      },
+      {
+        "noise": 1,
+        "hops": 2,
+        "clean": 0.42,
+        "noClean": 0.12
+      },
+      {
+        "noise": 1,
+        "hops": 3,
+        "clean": 0.42,
+        "noClean": 0.04
+      },
+      {
+        "noise": 1,
+        "hops": 4,
+        "clean": 0.22,
+        "noClean": 0.04
+      },
+      {
+        "noise": 1,
+        "hops": 5,
+        "clean": 0.2,
+        "noClean": 0.04
+      },
+      {
+        "noise": 1,
+        "hops": 6,
+        "clean": 0.14,
+        "noClean": 0.08
+      },
+      {
+        "noise": 1.5,
+        "hops": 1,
+        "clean": 0.4,
+        "noClean": 0.38
+      },
+      {
+        "noise": 1.5,
+        "hops": 2,
+        "clean": 0.32,
+        "noClean": 0.06
+      },
+      {
+        "noise": 1.5,
+        "hops": 3,
+        "clean": 0.16,
+        "noClean": 0.06
+      },
+      {
+        "noise": 1.5,
+        "hops": 4,
+        "clean": 0.08,
+        "noClean": 0.12
+      },
+      {
+        "noise": 1.5,
+        "hops": 5,
+        "clean": 0.24,
+        "noClean": 0.04
+      },
+      {
+        "noise": 1.5,
+        "hops": 6,
+        "clean": 0.06,
+        "noClean": 0.02
+      }
+    ]
+  },
+  "precision": [
+    {
+      "bits": 32,
+      "bytesPerVector": 4096,
+      "accuracy": 1,
+      "signalCosine": 1
+    },
+    {
+      "bits": 8,
+      "bytesPerVector": 1024,
+      "accuracy": 1,
+      "signalCosine": 1
+    },
+    {
+      "bits": 4,
+      "bytesPerVector": 512,
+      "accuracy": 1,
+      "signalCosine": 0.9944
+    },
+    {
+      "bits": 2,
+      "bytesPerVector": 256,
+      "accuracy": 1,
+      "signalCosine": 0.9397
+    },
+    {
+      "bits": 1,
+      "bytesPerVector": 128,
+      "accuracy": 0.9688,
+      "signalCosine": 0.7994
+    }
+  ],
+  "metacognition": {
+    "facts": 96,
+    "dim": 1024,
+    "sharedOnlyAccuracy": 0.7083,
+    "alwaysShardAccuracy": 0.9583,
+    "auroc": 0.8929,
+    "aurocRawCosine": 0.7868,
+    "meanConfidenceCorrect": 0.366,
+    "meanConfidenceWrong": 0.1378,
+    "histogram": [
+      {
+        "bin": 0.05,
+        "correct": 2,
+        "wrong": 13
+      },
+      {
+        "bin": 0.15,
+        "correct": 11,
+        "wrong": 9
+      },
+      {
+        "bin": 0.25,
+        "correct": 10,
+        "wrong": 5
+      },
+      {
+        "bin": 0.35,
+        "correct": 16,
+        "wrong": 1
+      },
+      {
+        "bin": 0.45,
+        "correct": 17,
+        "wrong": 0
+      },
+      {
+        "bin": 0.55,
+        "correct": 7,
+        "wrong": 0
+      },
+      {
+        "bin": 0.65,
+        "correct": 3,
+        "wrong": 0
+      },
+      {
+        "bin": 0.75,
+        "correct": 2,
+        "wrong": 0
+      },
+      {
+        "bin": 0.85,
+        "correct": 0,
+        "wrong": 0
+      },
+      {
+        "bin": 0.95,
+        "correct": 0,
+        "wrong": 0
+      }
+    ],
+    "sweep": [
+      {
+        "threshold": 0,
+        "accuracy": 0.7083,
+        "recallsPerQuery": 1,
+        "retryRate": 0
+      },
+      {
+        "threshold": 0.067,
+        "accuracy": 0.7604,
+        "recallsPerQuery": 1.052,
+        "retryRate": 0.052
+      },
+      {
+        "threshold": 0.133,
+        "accuracy": 0.8333,
+        "recallsPerQuery": 1.198,
+        "retryRate": 0.198
+      },
+      {
+        "threshold": 0.2,
+        "accuracy": 0.9063,
+        "recallsPerQuery": 1.365,
+        "retryRate": 0.365
+      },
+      {
+        "threshold": 0.267,
+        "accuracy": 0.9375,
+        "recallsPerQuery": 1.448,
+        "retryRate": 0.448
+      },
+      {
+        "threshold": 0.333,
+        "accuracy": 0.9479,
+        "recallsPerQuery": 1.594,
+        "retryRate": 0.594
+      },
+      {
+        "threshold": 0.4,
+        "accuracy": 0.9583,
+        "recallsPerQuery": 1.698,
+        "retryRate": 0.698
+      },
+      {
+        "threshold": 0.467,
+        "accuracy": 0.9583,
+        "recallsPerQuery": 1.813,
+        "retryRate": 0.813
+      },
+      {
+        "threshold": 0.533,
+        "accuracy": 0.9583,
+        "recallsPerQuery": 1.906,
+        "retryRate": 0.906
+      },
+      {
+        "threshold": 0.6,
+        "accuracy": 0.9583,
+        "recallsPerQuery": 1.948,
+        "retryRate": 0.948
+      },
+      {
+        "threshold": 0.667,
+        "accuracy": 0.9583,
+        "recallsPerQuery": 1.969,
+        "retryRate": 0.969
+      },
+      {
+        "threshold": 0.733,
+        "accuracy": 0.9583,
+        "recallsPerQuery": 1.99,
+        "retryRate": 0.99
+      },
+      {
+        "threshold": 0.8,
+        "accuracy": 0.9583,
+        "recallsPerQuery": 2,
+        "retryRate": 1
+      },
+      {
+        "threshold": 0.867,
+        "accuracy": 0.9583,
+        "recallsPerQuery": 2,
+        "retryRate": 1
+      },
+      {
+        "threshold": 0.933,
+        "accuracy": 0.9583,
+        "recallsPerQuery": 2,
+        "retryRate": 1
+      },
+      {
+        "threshold": 1,
+        "accuracy": 0.9583,
+        "recallsPerQuery": 2,
+        "retryRate": 1
+      }
+    ]
+  },
+  "compactness": {
+    "dim": 1024,
+    "rows": [
+      {
+        "hops": 1,
+        "cisaInstructions": 8,
+        "cisaBytes": 32,
+        "englishBytes": 109.8,
+        "englishTokens": 30.4,
+        "byteRatio": 3.43
+      },
+      {
+        "hops": 2,
+        "cisaInstructions": 13,
+        "cisaBytes": 52,
+        "englishBytes": 150.3,
+        "englishTokens": 41.4,
+        "byteRatio": 2.89
+      },
+      {
+        "hops": 3,
+        "cisaInstructions": 18,
+        "cisaBytes": 72,
+        "englishBytes": 190.9,
+        "englishTokens": 51.9,
+        "byteRatio": 2.65
+      },
+      {
+        "hops": 4,
+        "cisaInstructions": 23,
+        "cisaBytes": 92,
+        "englishBytes": 231.9,
+        "englishTokens": 63.2,
+        "byteRatio": 2.52
+      },
+      {
+        "hops": 5,
+        "cisaInstructions": 28,
+        "cisaBytes": 112,
+        "englishBytes": 271.1,
+        "englishTokens": 73.4,
+        "byteRatio": 2.42
+      },
+      {
+        "hops": 6,
+        "cisaInstructions": 33,
+        "cisaBytes": 132,
+        "englishBytes": 313.1,
+        "englishTokens": 84.4,
+        "byteRatio": 2.37
+      }
+    ],
+    "example": "Question: Who is the mentor of the sibling of the rival of the sibling of Ivo?\nLet's think step by step. The sibling of Ivo is Uma. The rival of Uma is Ivo. The sibling of Ivo is Uma. The mentor of Uma is Cyr. So the answer is Cyr.",
+    "flops": {
+      "cisaPerHop": 385024,
+      "llmTokensPerHop": 14.07,
+      "llm1BPerHop": 28140000000,
+      "llm8BPerHop": 225120000000,
+      "ratio1B": 73086
+    },
+    "measured": {
+      "hopsPerSecond": 1514,
+      "runtime": "Node v24.16.0, single thread, float64"
+    }
+  },
+  "analogy": [
+    {
+      "dim": 256,
+      "roles": 2,
+      "withClean": 1,
+      "withoutClean": 1,
+      "instructions": 24
+    },
+    {
+      "dim": 256,
+      "roles": 4,
+      "withClean": 1,
+      "withoutClean": 0.8,
+      "instructions": 40
+    },
+    {
+      "dim": 256,
+      "roles": 6,
+      "withClean": 0.9833,
+      "withoutClean": 0.3167,
+      "instructions": 56
+    },
+    {
+      "dim": 256,
+      "roles": 8,
+      "withClean": 1,
+      "withoutClean": 0.1667,
+      "instructions": 72
+    },
+    {
+      "dim": 256,
+      "roles": 12,
+      "withClean": 0.9,
+      "withoutClean": 0.0333,
+      "instructions": 104
+    },
+    {
+      "dim": 512,
+      "roles": 2,
+      "withClean": 1,
+      "withoutClean": 1,
+      "instructions": 24
+    },
+    {
+      "dim": 512,
+      "roles": 4,
+      "withClean": 1,
+      "withoutClean": 0.9667,
+      "instructions": 40
+    },
+    {
+      "dim": 512,
+      "roles": 6,
+      "withClean": 1,
+      "withoutClean": 0.7,
+      "instructions": 56
+    },
+    {
+      "dim": 512,
+      "roles": 8,
+      "withClean": 1,
+      "withoutClean": 0.55,
+      "instructions": 72
+    },
+    {
+      "dim": 512,
+      "roles": 12,
+      "withClean": 1,
+      "withoutClean": 0.15,
+      "instructions": 104
+    },
+    {
+      "dim": 1024,
+      "roles": 2,
+      "withClean": 1,
+      "withoutClean": 1,
+      "instructions": 24
+    },
+    {
+      "dim": 1024,
+      "roles": 4,
+      "withClean": 1,
+      "withoutClean": 1,
+      "instructions": 40
+    },
+    {
+      "dim": 1024,
+      "roles": 6,
+      "withClean": 1,
+      "withoutClean": 0.9667,
+      "instructions": 56
+    },
+    {
+      "dim": 1024,
+      "roles": 8,
+      "withClean": 1,
+      "withoutClean": 0.7,
+      "instructions": 72
+    },
+    {
+      "dim": 1024,
+      "roles": 12,
+      "withClean": 1,
+      "withoutClean": 0.4333,
+      "instructions": 104
+    }
+  ],
+  "operands": {
+    "dim": 2048,
+    "facts": 96,
+    "entities": 32,
+    "steps": 150,
+    "fewShot": [
+      {
+        "examples": 1,
+        "param": "free",
+        "accuracy": 0.0215,
+        "recovered": 0
+      },
+      {
+        "examples": 1,
+        "param": "symbolic",
+        "accuracy": 0.9677,
+        "recovered": 1
+      },
+      {
+        "examples": 2,
+        "param": "free",
+        "accuracy": 0.0444,
+        "recovered": 0
+      },
+      {
+        "examples": 2,
+        "param": "symbolic",
+        "accuracy": 0.9667,
+        "recovered": 1
+      },
+      {
+        "examples": 4,
+        "param": "free",
+        "accuracy": 0.0952,
+        "recovered": 0
+      },
+      {
+        "examples": 4,
+        "param": "symbolic",
+        "accuracy": 0.9762,
+        "recovered": 1
+      },
+      {
+        "examples": 8,
+        "param": "free",
+        "accuracy": 0,
+        "recovered": 0
+      },
+      {
+        "examples": 8,
+        "param": "symbolic",
+        "accuracy": 0.9583,
+        "recovered": 1
+      }
+    ],
+    "composite": [
+      {
+        "hops": 1,
+        "seed": 1,
+        "accuracy": 0,
+        "learned": [
+          "rival"
+        ],
+        "keyCosine": [
+          0.013
+        ]
+      },
+      {
+        "hops": 1,
+        "seed": 2,
+        "accuracy": 0,
+        "learned": [
+          "nia"
+        ],
+        "keyCosine": [
+          0.018
+        ]
+      },
+      {
+        "hops": 1,
+        "seed": 3,
+        "accuracy": 0.0417,
+        "learned": [
+          "eli"
+        ],
+        "keyCosine": [
+          0.043
+        ]
+      },
+      {
+        "hops": 2,
+        "seed": 1,
+        "accuracy": 0.9167,
+        "learned": [
+          "mentor",
+          "rival"
+        ],
+        "keyCosine": [
+          0.863,
+          0.973
+        ]
+      },
+      {
+        "hops": 2,
+        "seed": 2,
+        "accuracy": 0.9583,
+        "learned": [
+          "mentor",
+          "rival"
+        ],
+        "keyCosine": [
+          0.851,
+          0.95
+        ]
+      },
+      {
+        "hops": 2,
+        "seed": 3,
+        "accuracy": 0.9167,
+        "learned": [
+          "mentor",
+          "rival"
+        ],
+        "keyCosine": [
+          0.879,
+          0.942
+        ]
+      }
+    ],
+    "chain": [
+      "mentor",
+      "rival"
+    ]
+  },
+  "synthesis": [
+    {
+      "task": "analogy",
+      "description": "inputs: fillerA, recordA, recordB. target: the filler of recordB that plays fillerA's role.",
+      "inputs": 3,
+      "slots": 2,
+      "searchSpace": 5184,
+      "referenceAccuracy": 0.69,
+      "referenceProgram": [
+        "UNBIND r3, r0, r1",
+        "UNBIND r4, r3, r2",
+        "EMIT   r4",
+        "HALT"
+      ],
+      "budgetMs": 3000,
+      "results": [
+        {
+          "method": "relaxed gradient",
+          "successRate": 1,
+          "meanAccuracy": 0.69,
+          "runs": [
+            {
+              "seed": 1,
+              "accuracy": 0.69,
+              "vmAccuracy": 0.6,
+              "success": true,
+              "evaluated": 1792,
+              "program": [
+                "UNBIND r3, r1, r0",
+                "BIND   r4, r3, r2",
+                "EMIT   r4",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 2,
+              "accuracy": 0.69,
+              "vmAccuracy": 0.6,
+              "success": true,
+              "evaluated": 1952,
+              "program": [
+                "UNBIND r3, r1, r0",
+                "BIND   r4, r2, r3",
+                "EMIT   r4",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 3,
+              "accuracy": 0.69,
+              "vmAccuracy": 0.6,
+              "success": true,
+              "evaluated": 1984,
+              "program": [
+                "BIND   r3, r2, r0",
+                "UNBIND r4, r1, r3",
+                "EMIT   r4",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 4,
+              "accuracy": 0.69,
+              "vmAccuracy": 0.6,
+              "success": true,
+              "evaluated": 2008,
+              "program": [
+                "UNBIND r3, r1, r0",
+                "BIND   r4, r2, r3",
+                "EMIT   r4",
+                "HALT"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "straight-through gradient",
+          "successRate": 0,
+          "meanAccuracy": 0.025,
+          "runs": [
+            {
+              "seed": 1,
+              "accuracy": 0.03,
+              "vmAccuracy": 0.025,
+              "success": false,
+              "evaluated": 2480,
+              "program": [
+                "MOV    r3, r2",
+                "BUNDLE r4, r2, r2, 1",
+                "EMIT   r4",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 2,
+              "accuracy": 0.03,
+              "vmAccuracy": 0.025,
+              "success": false,
+              "evaluated": 3080,
+              "program": [
+                "BIND   r3, r2, r2",
+                "MOV    r4, r2",
+                "EMIT   r4",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 3,
+              "accuracy": 0.03,
+              "vmAccuracy": 0.025,
+              "success": false,
+              "evaluated": 3160,
+              "program": [
+                "MOV    r3, r1",
+                "BUNDLE r4, r2, r2, 1",
+                "EMIT   r4",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 4,
+              "accuracy": 0.01,
+              "vmAccuracy": 0,
+              "success": false,
+              "evaluated": 2912,
+              "program": [
+                "PERM   r3, r1, -1",
+                "BIND   r4, r3, r2",
+                "EMIT   r4",
+                "HALT"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "random search",
+          "successRate": 0.25,
+          "meanAccuracy": 0.18,
+          "runs": [
+            {
+              "seed": 1,
+              "accuracy": 0.01,
+              "vmAccuracy": 0,
+              "success": false,
+              "evaluated": 475,
+              "program": [
+                "MOV    r3, r2",
+                "PERM   r4, r0, -1",
+                "EMIT   r4",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 2,
+              "accuracy": 0.01,
+              "vmAccuracy": 0,
+              "success": false,
+              "evaluated": 472,
+              "program": [
+                "MOV    r3, r1",
+                "PERM   r4, r0, -1",
+                "EMIT   r4",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 3,
+              "accuracy": 0.01,
+              "vmAccuracy": 0,
+              "success": false,
+              "evaluated": 1022,
+              "program": [
+                "UNBIND r3, r0, r0",
+                "PERM   r4, r0, -1",
+                "EMIT   r4",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 4,
+              "accuracy": 0.69,
+              "vmAccuracy": 0.6,
+              "success": true,
+              "evaluated": 1336,
+              "program": [
+                "UNBIND r3, r1, r0",
+                "BIND   r4, r2, r3",
+                "EMIT   r4",
+                "HALT"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task": "analogy+distractor",
+      "description": "inputs: fillerA, recordA, recordB, distractor record. target: the filler of recordB that plays fillerA's role.",
+      "inputs": 4,
+      "slots": 3,
+      "searchSpace": 3110400,
+      "referenceAccuracy": 1,
+      "referenceProgram": [
+        "UNBIND r4, r0, r1",
+        "CLEAN  r5, r4",
+        "UNBIND r6, r5, r2",
+        "EMIT   r6",
+        "HALT"
+      ],
+      "budgetMs": 3000,
+      "results": [
+        {
+          "method": "relaxed gradient",
+          "successRate": 0,
+          "meanAccuracy": 0,
+          "runs": [
+            {
+              "seed": 1,
+              "accuracy": 0,
+              "vmAccuracy": 0,
+              "success": false,
+              "evaluated": 1424,
+              "program": [
+                "UNBIND r4, r1, r2",
+                "PERM   r5, r1, -1",
+                "PERM   r6, r2, -1",
+                "EMIT   r6",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 2,
+              "accuracy": 0,
+              "vmAccuracy": 0,
+              "success": false,
+              "evaluated": 1096,
+              "program": [
+                "UNBIND r4, r2, r2",
+                "PERM   r5, r2, -1",
+                "PERM   r6, r2, -1",
+                "EMIT   r6",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 3,
+              "accuracy": 0,
+              "vmAccuracy": 0,
+              "success": false,
+              "evaluated": 1160,
+              "program": [
+                "UNBIND r4, r1, r2",
+                "UNBIND r5, r1, r2",
+                "PERM   r6, r2, -1",
+                "EMIT   r6",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 4,
+              "accuracy": 0,
+              "vmAccuracy": 0,
+              "success": false,
+              "evaluated": 1368,
+              "program": [
+                "PERM   r4, r2, -1",
+                "PERM   r5, r2, -1",
+                "PERM   r6, r2, -1",
+                "EMIT   r6",
+                "HALT"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "straight-through gradient",
+          "successRate": 0,
+          "meanAccuracy": 0.0075,
+          "runs": [
+            {
+              "seed": 1,
+              "accuracy": 0,
+              "vmAccuracy": 0,
+              "success": false,
+              "evaluated": 1992,
+              "program": [
+                "MOV    r4, r1",
+                "UNBIND r5, r3, r1",
+                "MOV    r6, r5",
+                "EMIT   r6",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 2,
+              "accuracy": 0.03,
+              "vmAccuracy": 0,
+              "success": false,
+              "evaluated": 1536,
+              "program": [
+                "MOV    r4, r1",
+                "BIND   r5, r1, r3",
+                "BUNDLE r6, r2, r2, 1",
+                "EMIT   r6",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 3,
+              "accuracy": 0,
+              "vmAccuracy": 0,
+              "success": false,
+              "evaluated": 1920,
+              "program": [
+                "BUNDLE r4, r1, r1, 1",
+                "MOV    r5, r3",
+                "BUNDLE r6, r3, r2, 1",
+                "EMIT   r6",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 4,
+              "accuracy": 0,
+              "vmAccuracy": 0,
+              "success": false,
+              "evaluated": 2176,
+              "program": [
+                "BUNDLE r4, r2, r2, 1",
+                "BUNDLE r5, r2, r2, 1",
+                "BIND   r6, r2, r2",
+                "EMIT   r6",
+                "HALT"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "random search",
+          "successRate": 0,
+          "meanAccuracy": 0.4025,
+          "runs": [
+            {
+              "seed": 1,
+              "accuracy": 0.02,
+              "vmAccuracy": 0.025,
+              "success": false,
+              "evaluated": 1155,
+              "program": [
+                "UNBIND r4, r2, r2",
+                "BUNDLE r5, r3, r2, 1",
+                "MOV    r6, r4",
+                "EMIT   r6",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 2,
+              "accuracy": 0.78,
+              "vmAccuracy": 0.75,
+              "success": false,
+              "evaluated": 1207,
+              "program": [
+                "UNBIND r4, r1, r2",
+                "PERM   r5, r0, -1",
+                "BIND   r6, r0, r4",
+                "EMIT   r6",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 3,
+              "accuracy": 0.78,
+              "vmAccuracy": 0.75,
+              "success": false,
+              "evaluated": 996,
+              "program": [
+                "UNBIND r4, r1, r2",
+                "MOV    r5, r2",
+                "BIND   r6, r4, r0",
+                "EMIT   r6",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 4,
+              "accuracy": 0.03,
+              "vmAccuracy": 0.025,
+              "success": false,
+              "evaluated": 1195,
+              "program": [
+                "BUNDLE r4, r1, r2, 1",
+                "CLEAN  r5, r1",
+                "UNBIND r6, r4, r2",
+                "EMIT   r6",
+                "HALT"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task": "memory hop",
+      "description": "inputs: memory, relation, entity, distractor entity. target: the related entity (needs BIND, RECALL, un-PERM, CLEAN).",
+      "inputs": 4,
+      "slots": 4,
+      "searchSpace": 914457600,
+      "referenceAccuracy": 0.9,
+      "referenceProgram": [
+        "BIND   r4, r1, r2",
+        "UNBIND r5, r4, r0",
+        "PERM   r6, r5, -1",
+        "CLEAN  r7, r6",
+        "EMIT   r7",
+        "HALT"
+      ],
+      "budgetMs": 3000,
+      "results": [
+        {
+          "method": "relaxed gradient",
+          "successRate": 0,
+          "meanAccuracy": 0.04,
+          "runs": [
+            {
+              "seed": 1,
+              "accuracy": 0.04,
+              "vmAccuracy": 0.05,
+              "success": false,
+              "evaluated": 1296,
+              "program": [
+                "BUNDLE r4, r0, r0, 1",
+                "BUNDLE r5, r0, r0, 1",
+                "BUNDLE r6, r0, r0, 1",
+                "PERM   r7, r0, -1",
+                "EMIT   r7",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 2,
+              "accuracy": 0.04,
+              "vmAccuracy": 0.05,
+              "success": false,
+              "evaluated": 1224,
+              "program": [
+                "PERM   r4, r0, -1",
+                "PERM   r5, r0, -1",
+                "PERM   r6, r0, -1",
+                "PERM   r7, r0, -1",
+                "EMIT   r7",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 3,
+              "accuracy": 0.04,
+              "vmAccuracy": 0.05,
+              "success": false,
+              "evaluated": 1240,
+              "program": [
+                "PERM   r4, r0, -1",
+                "PERM   r5, r0, -1",
+                "PERM   r6, r0, -1",
+                "PERM   r7, r0, -1",
+                "EMIT   r7",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 4,
+              "accuracy": 0.04,
+              "vmAccuracy": 0.05,
+              "success": false,
+              "evaluated": 1184,
+              "program": [
+                "BUNDLE r4, r0, r0, 1",
+                "BUNDLE r5, r0, r0, 1",
+                "BUNDLE r6, r0, r0, 1",
+                "PERM   r7, r0, -1",
+                "EMIT   r7",
+                "HALT"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "straight-through gradient",
+          "successRate": 0,
+          "meanAccuracy": 0.0925,
+          "runs": [
+            {
+              "seed": 1,
+              "accuracy": 0.11,
+              "vmAccuracy": 0.125,
+              "success": false,
+              "evaluated": 2736,
+              "program": [
+                "BUNDLE r4, r0, r0, 1",
+                "PERM   r5, r4, -1",
+                "UNBIND r6, r2, r4",
+                "BIND   r7, r0, r0",
+                "EMIT   r7",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 2,
+              "accuracy": 0.11,
+              "vmAccuracy": 0.125,
+              "success": false,
+              "evaluated": 2864,
+              "program": [
+                "BUNDLE r4, r0, r0, 1",
+                "MOV    r5, r0",
+                "MOV    r6, r0",
+                "BIND   r7, r0, r0",
+                "EMIT   r7",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 3,
+              "accuracy": 0.11,
+              "vmAccuracy": 0.125,
+              "success": false,
+              "evaluated": 2480,
+              "program": [
+                "PERM   r4, r1, -1",
+                "UNBIND r5, r4, r2",
+                "UNBIND r6, r5, r1",
+                "BIND   r7, r0, r0",
+                "EMIT   r7",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 4,
+              "accuracy": 0.04,
+              "vmAccuracy": 0.05,
+              "success": false,
+              "evaluated": 2456,
+              "program": [
+                "CLEAN  r4, r2",
+                "PERM   r5, r1, -1",
+                "BIND   r6, r1, r2",
+                "PERM   r7, r0, -1",
+                "EMIT   r7",
+                "HALT"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "random search",
+          "successRate": 0,
+          "meanAccuracy": 0.0725,
+          "runs": [
+            {
+              "seed": 1,
+              "accuracy": 0.14,
+              "vmAccuracy": 0.125,
+              "success": false,
+              "evaluated": 1073,
+              "program": [
+                "CLEAN  r4, r0",
+                "BIND   r5, r2, r4",
+                "BIND   r6, r5, r5",
+                "BIND   r7, r5, r0",
+                "EMIT   r7",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 2,
+              "accuracy": 0.09,
+              "vmAccuracy": 0.125,
+              "success": false,
+              "evaluated": 1366,
+              "program": [
+                "UNBIND r4, r3, r0",
+                "CLEAN  r5, r4",
+                "PERM   r6, r4, -1",
+                "UNBIND r7, r6, r6",
+                "EMIT   r7",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 3,
+              "accuracy": 0.03,
+              "vmAccuracy": 0.025,
+              "success": false,
+              "evaluated": 1468,
+              "program": [
+                "CLEAN  r4, r0",
+                "CLEAN  r5, r4",
+                "MOV    r6, r5",
+                "UNBIND r7, r1, r3",
+                "EMIT   r7",
+                "HALT"
+              ]
+            },
+            {
+              "seed": 4,
+              "accuracy": 0.03,
+              "vmAccuracy": 0.025,
+              "success": false,
+              "evaluated": 1502,
+              "program": [
+                "CLEAN  r4, r2",
+                "MOV    r5, r1",
+                "PERM   r6, r3, -1",
+                "UNBIND r7, r1, r3",
+                "EMIT   r7",
+                "HALT"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

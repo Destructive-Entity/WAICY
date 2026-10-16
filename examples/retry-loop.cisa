@@ -1,0 +1,13 @@
+; Ask memory, and keep re-asking a cleaned query until confident.
+; Shows discrete control flow (BRC) driven by the continuous confidence register.
+; expect: bo sibling
+LOAD   r0, #bo
+LOAD   r1, #sibling
+BIND   r2, r1, r0
+again:
+RECALL r3, r2, @0
+PERM   r3, r3, -1
+CLEAN  r4, r3
+BRC    0.10, :again    ; with no noise this passes first time
+EMIT   r4
+HALT

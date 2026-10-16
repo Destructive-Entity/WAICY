@@ -1,0 +1,9 @@
+; Hold two people in one register, then ask which one is closer to a probe.
+LOAD   r0, #ada
+LOAD   r1, #cyr
+BUNDLE r2, r0, r1, 1    ; r2 = ada + cyr (both at once)
+LOAD   r3, #cyr
+SIM    r2, r3           ; C ~ 0.7: cyr is "in" r2
+GATE   r4, r3           ; keep cyr in proportion to belief
+EMIT   r4
+HALT

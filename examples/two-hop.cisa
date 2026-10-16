@@ -1,0 +1,15 @@
+; Who is the rival of Cyr's mentor?  (Cyr -> Bo -> Eli)
+; expect: cyr mentor rival
+LOAD   r0, #cyr
+LOAD   r1, #mentor
+BIND   r2, r1, r0      ; "mentor of Cyr"
+RECALL r3, r2, @0      ; query superposed memory
+PERM   r3, r3, -1      ; undo the tail permutation
+CLEAN  r0, r3          ; recognise the person
+LOAD   r1, #rival
+BIND   r2, r1, r0
+RECALL r3, r2, @0
+PERM   r3, r3, -1
+CLEAN  r0, r3
+EMIT   r0
+HALT
